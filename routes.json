@@ -1,0 +1,6 @@
+{   
+    "/api/v1/*": "/$1",
+    "/WorkLog/:id/show": "/WorkLog/:id",
+    "/:id/:Week": "/:id/:Week"  
+
+}

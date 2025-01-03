@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TO RUN THE SERVER::: -->
+<!-- json-server db.json --routes db.json -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" 
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" 
+        crossorigin="anonymous"></script>    
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f8dd94231.js" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="functions.js"></script> -->
+    <!-- <script src="//code.jquery.com/jquery-1.12.4.js"></script> -->
+    <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui,js"></script> -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.quilljs.com/1.3.6/quill.snow.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>WorkLog</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container">
+            <form class="form-container">
+                <h3>WorkLog</h3>
+                <hr class="rounded no-padding">
+                <section id="WorkLog">
+                    <div class="form-field-container flex-row btn-group" id="worklog-button-group" role="group">
+                        <button class="btn btn-lg form-control btn-secondary" id="show-all-logs-button">All</button>
+                        <button id="week-selector-dropdown-menu" class="btn btn-lg btn-secondary form-control p-0 d-flex text-center" style="width: 300%;">
+                            <div id="week-selector-dropdown" data-bs-toggle="dropdown" aria-expanded="false" class="dropdown-toggle button-group-dropdown py-2 px-3 d-flex justify-content-between align-items-center" style="width: 100%; height: 100%;">
+                                <span></span>
+                                <span id="week-selector-dropdown-text" class=""></span>
+                            </div>
+                            <ul id="week-selector" class="dropdown-menu dropdown-menu-dark button-group-dropdown-list text-center" aria-labelledby="dropdownMenu">
+                                <li><div value="all" class="dropdown-item" id="week-selector-option-all">All</div></li>
+                                <li><div value="week" class="dropdown-item" id="week-selector-option-week">Week</div></li>
+                            </ul>
+                        </button>
+                        <!-- <select class="btn-secondary form-select-lg" id="week-selector" aria-label="week-selector" style="width: 300%;">
+                            <option selected value="-1">Week</option>
+                        </select> -->
+                        <button class="btn btn-lg form-control btn-secondary button-add" id="add-logs-button">Add</button>
+
+                        <button class="btn btn-lg form-control btn-secondary" id="hide-all-logs-button">Hide</button>
+                        <!-- <button class="btn btn-lg form-control btn-secondary" id="delete-logs-button">Delete</button> -->
+                        <button class="btn btn-lg form-control btn-secondary" id="refresh-logs-button">Refresh</button>
+                        <!-- <button class="btn btn-lg form-control btn-secondary" id="clear-all-logs-button">Clear</button> -->
+                    </div>
+                    <div class="form-field-container" id="log-div" style="display: none;">
+                    </div>
+                </section>
+                <section>
+                    <div class="form-field-container" id="add-log-div" style="display: none;"></div>
+                    <div class="form-field-container" id="editor"></div>
+                    <div class="form-field-container" id="test2"></div>
+
+                </section>
+            </form>
+        </div>
+    </div>
+    <div id="invisible" class="" style="display: none;">  
+
+    </div>
+
+
+    <script src="js/exceptions.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/logQuill.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/models.js"></script>
+    <script src="js/widgets.js"></script>
+    <script src="js/worklog.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+{
+  "Worklog": [
+    {
+      "Week": "08/23/2021 - 08/27/2021",
+      "Logs": [
+        {
+          "date": "August 23rd",
+          "hours": "07:30 - 17:30",
+          "activity": [
+            "Mambalanche Learning:<ul><li>None.</li></ul><hr>Compliance Training:<ul><li>Initial Onboarding and HR paperwork.</li></ul>"
+          ],
+          "id": "0"
+        },
+        {
+          "date": "August 24th",
+          "hours": "08:00 - 17:30",
+          "activity": [
+            "Mambalanche Learning:<ul><li>TFS, getting greenzone access and brief overview of CAC.</li></ul><hr>Compliance Training:<ul><li>HR paperwork and benefits.</li></ul>"
+          ],
+          "id": "1"
+        },
+        {
+          "date": "August 25th",
+          "hours": "07:30 - 17:00",
+          "activity": [
+            "Mambalanche Learning:<ul><li>Greenzone tools and VMs, worked on installing tools.</li></ul><hr>Compliance Training:<ul><li>Began HIPAA and other HR courses.</li></ul>"
+          ],
+          "id": "2"
+        },
+        {
+          "date": "August 26th",
+          "hours": "08:30 - 17:00",
+          "activity": [
+            "Mambalanche Learning:<ul><li>Domain Knowledge, Development Training.</li></ul><hr>Compliance Training:<ul><li>HIPAA and HR courses.</li></ul>"
+          ],
+          "id": "3"
+        },
+        {
+          "date": "August 27th",
+          "hours": "08:00 - 17:00",
+          "activity": [
+            "Mambalanche Learning:<ul><li>360 Encompass and C++ debugging.</li></ul><hr>Compliance Training:<ul><li>Finished compliance trainings and materals.</li></ul>"
+          ],
+          "id": "4"
+        }
+      ],
+      "Accomplished": [
+        "<ol><li>Began On-Boarding and completed several On-Boarding Tasks.</li><li>Completed All Compliance Trainings.</li><li>N/A.</li></ol>"
+      ],
+      "Planned": [
+        "<ol><li>Begin with On-Boarding Tasks.</li><li>Complete Compliance Trainings.</li></ol>"
+      ],
+      "Questions": [
+        "NoneYes"
+      ],
+      "id": "00"
+    },
+    {
+      "Week": "08/30/2021 - 09/03/2021",
+      "Logs": [
+        {
+          "date": "August 30th",
+          "hours": "07:30 - 17:30",
+          "activity": [
+            "<p class=\"ql-indent-1\">Lets try a more formatted one...<ul><li class=\"ql-indent-1\">Here is one item</li><li class=\"ql-indent-1\">Here is another</li></ul><hr><p class=\"ql-indent-1\">Here Is a new HEADER:<ol><li>Hi 4</li><li class=\"ql-indent-1\">Try one 22</li><li class=\"ql-indent-1\">Try two</li><li><span style=\"color: rgb(0, 102, 204);\">Hello</span></li><li class=\"ql-indent-1\"><span style=\"color: rgb(230, 0, 0);\">Forrrth</span></li><li class=\"ql-indent-1\"><span style=\"color: rgb(153, 51, 255);\">Fifth</span></li><li class=\"ql-indent-2\"><span style=\"color: rgb(255, 255, 0);\">Hi hi</span></li><li class=\"ql-indent-3\"><span style=\"color: rgb(161, 0, 0);\">Oh by</span></li><li class=\"ql-indent-4\">Again!!?66</li><li class=\"ql-indent-2\">III</li><li class=\"ql-indent-1\">Sixth</li></ol><hr><ol><li>Goodbye</li></ol><hr><p class=\"ql-indent-1\">And a third div"
+          ],
+          "id": "0"
+        },
+        {
+          "date": "August 31st",
+          "hours": "08:00 - 17:30",
+          "activity": [
+            "<p class=\"ql-indent-1\">Lets try a new one! And an edit<p class=\"ql-indent-1\"><br><p class=\"ql-indent-1\"><br>"
+          ],
+          "id": "1"
+        },
+        {
+          "date": "September 1st",
+          "hours": "07:30 - 17:00",
+          "activity": [
+            "Try again! Twice Third Fourth"
+          ],
+          "id": "2"
+        },
+        {
+          "date": "September 2nd",
+          "hours": "08:30 - 17:00",
+          "activity": [
+            "<p class=\"ql-indent-1\">Hello!"
+          ],
+          "id": "3"
+        },
+        {
+          "date": "September 3rd",
+          "hours": "08:00 - 17:00",
+          "activity": [
+            "<p class=\"ql-indent-1\"><br>"
+          ],
+          "id": "4"
+        }
+      ],
+      "Accomplished": [
+        "<br>"
+      ],
+      "Planned": [
+        "<ol><li>Make Progress With</li><li>&nbsp;asasasas</li></ol>"
+      ],
+      "Questions": [
+        "<br>"
+      ],
+      "id": "01"
+    }
+  ]
+}

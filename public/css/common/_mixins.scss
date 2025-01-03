@@ -1,0 +1,20 @@
+
+@use "sass:map";
+@use "sass:meta";
+@use "sass:list";
+
+@mixin hr-fade($gradients...) {
+
+    @debug meta($gradients);
+    @debug "hello";
+    margin: 0; 
+    border: none;
+    color: transparent !important;
+    // background: -webkit-gradient(linear, 0, 0, 100%, 0, from(transparent), to(transparent), color-stop(50%, black));
+    background-image: linear-gradient(to right, rgba(transparent, 1), rgba(transparent, 0));
+
+}
+
+.test {
+    @include hr-fade(rgba(red, 1), rgba(blue, 1));
+}

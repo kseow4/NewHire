@@ -1,0 +1,90 @@
+
+{
+    "Worklog": [
+        {
+            "Week": "August 23 - 27",
+            "log": [
+                {
+                    "date": "August 23rd",
+                    "hours": "07:30 - 17:30",
+                    "Mambalanche-Learning": "None.",
+                    "Compliance-Training": "Initial Onboarding and HR paperwork."
+                },
+                {
+                    "date": "August 24th",
+                    "hours": "08:00 - 17:30",
+                    "Mambalanche-Learning": "TFS, getting greenzone access and brief overview of CAC.",
+                    "Compliance-Training": "HR paperwork and benefits."
+                },
+                {
+                    "date":"August 25th",
+                    "hours": "07:30 - 17:00",
+                    "Mambalanche-Learning": "Greenzone tools and VMs, worked on installing tools.",
+                    "Compliance-Training": "Began HIPAA and other HR courses."
+                },
+                {
+                    "date": "August 26th",
+                    "hours": "08:30 - 17:00",
+                    "Mambalanche-Learning": "Domain Knowledge, Development Training.",
+                    "Compliance-Training": "HIPAA and HR courses."
+                },
+                {
+                    "date": "August 27th",
+                    "hours":"08:00 - 17:00",
+                    "Mambalanche-Learning": "360 Encompass and C++ debugging.",
+                    "Compliance-Training": "Finished compliance trainings and materals."
+                }
+            ]
+        },
+        {
+            "Week": "August 30 - September 3",
+            "log": [
+                {
+                    "date":"August 30th",
+                    "hours": "08:30 - 17:00",
+                    "Mambalanche-Learning": "",
+                    "Compliance-Training": ""
+                },
+                {
+                    
+                }
+            ]
+        }
+        
+    ],
+    "posts": [
+        { "id": 1, "title": "json-server","author": "typicode"},
+        { "id": 2, "title": "json-server2","author": "typicode2"}
+    ],
+    "comments": [
+        { "id": 1, "body": "somecomment-server", "postId": 1, "tagsId": [1, 2] },
+        { "id": 2, "body": "another comment", "postId": 1, "tagsId": [2, 3] },
+        { "id": 3, "body": "this is another comment", "postId": 2, "tagsId": [1, 2, 3] }
+
+    ],
+    "tags": [
+        {"id":1, "name":"javascript"},
+        
+        {"id":2, "name":"node"},
+        
+        {"id":3, "name":"json"}
+    ],
+    "posts_tags": [
+        
+        {"id":1, "postId": 1, "tagId": 1},
+        
+        {"id":2, "postId": 1, "tagId": 2},
+        
+        {"id":3, "postId": 1, "tagId": 3},
+        
+        {"id":4, "postId": 2, "tagId": 1},
+        
+        {"id":5, "postId": 2, "tagId": 2}
+    ]
+
+    
+
+}
+
+
+
