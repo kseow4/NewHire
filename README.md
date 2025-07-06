@@ -67,28 +67,27 @@ Example endpoint: http://localhost:3000/api/v1/WorkLog
 
 ## Data Structure
 
-Each WorkLog entry has the following structure:
-
+Each WorkLog entry has the following format:
 {
-   "Week": "08/23/2021 - 08/27/2021",
-   "Logs": [
-      {
-         "date": "August 23rd",
-         "hours": "07:30 - 17:30",
-         "activity": [
-
-         ],
-         "id": "0"
-      }
-   ],
-   "Accomplished": [
-
-   ],
-   "Planned": [
-
-   ],
-   "Questions": [
-
-   ],
-   "id": "00"
+  "Week": "08/23/2021 - 08/27/2021",
+  "Logs": [
+    {
+      "date": "August 23rd",
+      "hours": "07:30 - 17:30",
+      "activity": [],
+      "id": "0"
+    }
+  ],
+  "Accomplished": [],
+  "Planned": [],
+  "Questions": [],
+  "id": "00"
 }
+
+## Contributing
+
+Contributions are welcome! Feel free to fork this repo and submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
