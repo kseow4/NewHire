@@ -50,6 +50,7 @@ Start the server:
 
    ```bash
    npm start
+   ```
 
 The server runs at: http://localhost:3000
 Example endpoint: http://localhost:3000/api/v1/WorkLog
