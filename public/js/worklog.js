@@ -3,8 +3,8 @@ const $dbPath = `http://localhost:3000/api/v1/WorkLog`;
 
 const minus = (id) => `minus-${id}`;
 const plus = (id) => `plus-${id}`;
-const $$minus = (id, options = {class: null, text: null}) => `<i class="fas fa-minus-square ${options.class ? options.class : ""}" id="${id ? minus(id) : ""}" active="true">${options.text ? ` ${options.text}` : ""}</i>`;
-const $$plus = (id, options = {class: null, text: null}) => `<i class="fas fa-plus-square ${options.class ? options.class : ""}" id="${id ? plus(id) : ""}" active="false">${options.text ? ` ${options.text}` : ""}</i>`;
+const $$minus = (id, options = {class: null, text: null}) => `<i class="fa-solid fa-square-minus ${options.class ? options.class : ""}" id="${id ? minus(id) : ""}" active="true">${options.text ? ` ${options.text}` : ""}</i>`;
+const $$plus = (id, options = {class: null, text: null}) => `<i class="fa-solid fa-square-plus ${options.class ? options.class : ""}" id="${id ? plus(id) : ""}" active="false">${options.text ? ` ${options.text}` : ""}</i>`;
 
 const $$hr = `<i class="bi bi-hr"></i>`;
 

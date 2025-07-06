@@ -1,11 +1,7 @@
-@use "sass:map";
-@use "sass:meta";
-@use "sass:list";
 .test {
   margin: 0;
   border: none;
   color: transparent !important;
-  background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0));
 }
 
@@ -33,31 +29,21 @@ body {
   padding: 5px;
   margin: 5px 0px;
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .flex-row {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-  -ms-flex-direction: row !important;
   flex-direction: row !important;
 }
 
 .bordered {
-  border: 1px solid #ced4da;
-  -webkit-transition: all 0.5s ease-in-out;
+  border: 1px solid rgb(206, 212, 218);
   transition: all 0.5s ease-in-out;
 }
 
 .bordered-hidden {
   border: 1px solid rgba(0, 0, 0, 0);
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -70,25 +56,15 @@ body {
   border: 1px solid #ced4da;
   font-size: 1rem;
   padding: 5px;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   margin: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   outline: none;
 }
 
 .form-list-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   margin: 0px 5px;
   padding: 5px 0px;
@@ -118,7 +94,6 @@ body {
   font-size: 0.875rem;
   color: #202020;
 }
-
 .form-list-group-item pre hr {
   margin: 5px 0px;
   opacity: 1;
@@ -128,32 +103,24 @@ body {
 .form-list-group-item-action {
   cursor: pointer;
 }
-
 .form-list-group-item-action:hover {
   background-color: #f8f9fa;
 }
-
 .form-list-group-item-action > div {
   pointer-events: none;
 }
-
-.form-list-group-item-action > pre {
-  /* pointer-events: none; */
+.form-list-group-item-action > pre { /* pointer-events: none; */
   cursor: default;
 }
-
 .form-list-group-item-action > pre > span {
   pointer-events: none;
 }
-
 .form-list-group-item-action > pre > span > small {
   pointer-events: all;
 }
-
 .form-list-group-item-action > pre > div {
   pointer-events: all;
 }
-
 .form-list-group-item-action > pre > hr {
   pointer-events: all;
 }
@@ -174,7 +141,6 @@ body {
 }
 
 .form-heading-div {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0 10px;
@@ -191,37 +157,31 @@ body {
 }
 
 .form-heading-span i:first-child:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(red), color-stop(15%, red), color-stop(15%, white), color-stop(85%, white), color-stop(85%, red), color-stop(0%, red)) top;
   background: linear-gradient(to top, red 0%, red 15%, white 15%, white 85%, red 85%, red 0%) top;
   border: 2px solid tomato;
 }
 
 .form-heading-span i:last-child:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#00e400), color-stop(15%, #00e400), color-stop(15%, white), color-stop(85%, white), color-stop(85%, #00e400), color-stop(0%, #00e400)) top;
-  background: linear-gradient(to top, #00e400 0%, #00e400 15%, white 15%, white 85%, #00e400 85%, #00e400 0%) top;
-  border: 2px solid #00e400;
+  background: linear-gradient(to top, rgb(0, 228, 0) 0%, rgb(0, 228, 0) 15%, white 15%, white 85%, rgb(0, 228, 0) 85%, rgb(0, 228, 0) 0%) top;
+  border: 2px solid rgb(0, 228, 0);
 }
 
 .form-heading-span i:active:hover {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 .form-heading-delete {
   cursor: pointer;
   margin-right: 5px;
 }
-
 .form-heading-delete i {
   color: lightsteelblue;
   border: 2px solid transparent;
   border-radius: 4px;
 }
-
 .form-heading-delete i:hover {
-  color: #be0000;
+  color: rgb(190, 0, 0);
 }
-
 .form-heading-delete i:active:hover {
   color: red;
 }
@@ -250,7 +210,6 @@ body {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
 }
-
 .gen-modal .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -260,7 +219,6 @@ body {
 }
 
 .gen-modal-container {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0 5px;
@@ -270,35 +228,29 @@ body {
 .gen-close-button {
   cursor: pointer;
 }
-
 .gen-close-button i {
   color: lightsteelblue;
   border: 2px solid transparent;
   border-radius: 4px;
 }
-
 .gen-close-button i:hover {
-  color: #be0000;
+  color: rgb(190, 0, 0);
 }
-
 .gen-close-button i:active:hover {
   color: red;
 }
 
 .transition-300-ease-in-out {
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .add-log-form {
   padding: 0;
 }
-
 .add-log-form h5 {
   padding: 0px 5px;
   margin: 5px 10px;
 }
-
 .add-log-form hr {
   margin: 0px;
   opacity: 1;
@@ -323,7 +275,6 @@ body {
   margin: 0;
   border: none;
   color: transparent !important;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ced4da), to(rgba(206, 212, 218, 0)));
   background-image: linear-gradient(to right, #ced4da, rgba(206, 212, 218, 0));
 }
 
@@ -333,14 +284,11 @@ body {
 
 .button-add:focus {
   outline: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
-
 .button-add:focus:not(:focus-visible) {
   outline: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .button-is-clicked {
@@ -349,7 +297,6 @@ body {
   -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5) inset;
   background-color: #888;
 }
-
 .button-is-clicked:hover {
   background-color: #777;
 }
@@ -361,14 +308,12 @@ body {
 }
 
 .inset-shadow {
-  -webkit-box-shadow: black 0px 0px 0px 0px inset, black 0px 0px 15px 0px inset, inset 0px 0px 50px 0px black;
-  box-shadow: black 0px 0px 0px 0px inset, black 0px 0px 15px 0px inset, inset 0px 0px 50px 0px black;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset, rgb(0, 0, 0) 0px 0px 15px 0px inset, inset 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
 .quill-static .ql-container {
   overflow-y: auto;
 }
-
 .quill-static .ql-editor {
   overflow-y: auto;
 }
@@ -456,5 +401,4 @@ body {
 
 .mr-1 {
   margin-right: 0.25rem !important;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
