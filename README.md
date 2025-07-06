@@ -1,6 +1,76 @@
-<!-- TO RUN THE SERVER::: -->
-<!-- node server.js -->
+# NewHire WorkLog API
 
-To run the server: node server.js
+A simple JSON server API to manage and mock WorkLog data for development and testing.
 
+---
 
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Data Structure](#data-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## About
+
+This project uses [json-server](https://github.com/typicode/json-server) to quickly mock a REST API for WorkLog data, enabling frontend development without a real backend.
+
+---
+
+## Features
+
+- RESTful API endpoints to perform CRUD operations on WorkLog entries
+- Custom route rewrites to support `/api/v1/` namespace
+- Example data for quick testing
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kseow4/newhire.git
+   cd newhire
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+## Usage
+
+Start the server:
+
+   ```bash
+   npm start
+
+The server runs at: http://localhost:3000
+Example endpoint: http://localhost:3000/api/v1/WorkLog
+
+## API-Endpoints
+
+| Method | Endpoint              | Description                 |
+| ------ | --------------------- | --------------------------- |
+| GET    | `/api/v1/WorkLog`     | List all work log entries   |
+| GET    | `/api/v1/WorkLog/:id` | Get a single work log entry |
+| POST   | `/api/v1/WorkLog`     | Create a new work log entry |
+| PUT    | `/api/v1/WorkLog/:id` | Update an existing work log |
+| DELETE | `/api/v1/WorkLog/:id` | Delete a work log entry     |
+
+## Data Structure
+
+Each WorkLog entry has the following structure:
+
+{
+  "id": 1,
+  "employee": "Kyle",
+  "week": "2025-W27",
+  "task": "Project setup"
+}
