@@ -70,8 +70,25 @@ Example endpoint: http://localhost:3000/api/v1/WorkLog
 Each WorkLog entry has the following structure:
 
 {
-  "id": 1,
-  "employee": "Kyle",
-  "week": "2025-W27",
-  "task": "Project setup"
+   "Week": "08/23/2021 - 08/27/2021",
+   "Logs": [
+      {
+         "date": "August 23rd",
+         "hours": "07:30 - 17:30",
+         "activity": [
+
+         ],
+         "id": "0"
+      }
+   ],
+   "Accomplished": [
+
+   ],
+   "Planned": [
+
+   ],
+   "Questions": [
+
+   ],
+   "id": "00"
 }
