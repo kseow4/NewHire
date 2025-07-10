@@ -68,6 +68,7 @@ Example endpoint: http://localhost:3000/api/v1/WorkLog
 ## Data Structure
 
 Each WorkLog entry has the following format:
+```
 {
   "Week": "08/23/2021 - 08/27/2021",
   "Logs": [
@@ -83,6 +84,7 @@ Each WorkLog entry has the following format:
   "Questions": [],
   "id": "00"
 }
+```
 
 ## Contributing
 
